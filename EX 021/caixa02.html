@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAGS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+            ;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 2px;
+            box-shadow: 1px 2px 7px 1px;
+        }
+        footer{
+            background-color: lightgray;
+            padding: 5px;
+            margin: auto;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: rgb(247, 212, 168);
+            margin: auto;
+        }
+        article > aside {
+            background-color: rgb(185, 140, 81);
+            text-align: right;
+        }
+        nav{
+            background-color: rgb(133, 132, 132);
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.664);
+            margin: 0px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            display: inline-flex;
+        }
+        nav > a:hover{
+            text-decoration: dashed;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>NOVIDADES ESPORTIVAS</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia Aleatória</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio eius voluptate ullam, quaerat sed, veniam iure tenetur error ad quo at veritatis similique. Repellendus ratione ab iusto. Id, aperiam animi?</p>
+                 <aside>
+                <p>Escrito por Gabriel Ermel</p> 
+                </aside>
+            </article>
+           
+           
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido Por Gabriel Ermel</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
