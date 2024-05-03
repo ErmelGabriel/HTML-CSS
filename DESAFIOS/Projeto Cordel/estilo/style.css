@@ -27,7 +27,7 @@ header{
     text-align: center;
     h1{
         font-family: var(--fonte-titulo);
-        font-size: 7em;
+        font-size: 7vw;
         font-variant: small-caps;
         padding-top: 30px;
     }
@@ -46,21 +46,38 @@ header{
 
 section{
     font-family: var(--fonte-section);
-    font-size: 5vh-+;
+    font-size: 5vw;
     line-height: 2em;
     padding: 10vh 0vh 10vh 30px;
+    p{
+        padding-bottom: 2em ;
+    }
 }
+
 .normal{
     background-color: antiquewhite;
     color: black;
 }
+
 .imagem{
-    background-color: rgba(46, 45, 45, 0.808);
+    background-color: rgba(75, 71, 71, 0.534);
     color: white;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    background-attachment: fixed;
     p{
-        width: 400px;
-        background-color: black
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.068);
+        text-shadow: 1px 1px 0px black
     };
+    #img001{
+        background-image: url(../imagens/background001.jpg);
+        background-position: right center;
+    }
+    #img002{
+        background-image: url(../imagens/background002.jpg);
+        background-position: right center;
+    }
 }
 
 footer{
